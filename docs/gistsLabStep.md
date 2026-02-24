@@ -39,8 +39,8 @@
 * **Gist**：適合單一檔案、快速分享、跨網站嵌入。
 
 <!-- 返回按鈕 -->
-<div style="margin-top: 50px; text-align: center; display: flex; justify-content: center; gap: 20px;"\>
-<a href="index.html" class="btn" style="padding: 10px 25px; color: \#157878; border: 1px solid \#157878; text-decoration: none; border-radius: 5px;"\>🏠 回到首頁\</a\>
-</div\>
+<div style="margin-top: 50px; text-align: center; display: flex; justify-content: center; gap: 20px;">
+<a href="index.html" class="btn" style="padding: 10px 25px; color: #157878; border: 1px solid #157878; text-decoration: none; border-radius: 5px;">🏠 回到首頁</a>
+</div>
 
 © 2026 AnitaHome | GH900-Ch02
