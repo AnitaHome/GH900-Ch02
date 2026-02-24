@@ -41,11 +41,11 @@
 
 3. **關鍵啟動步驟 (Front Matter)：** Jekyll 只會處理包含「開頭配置」的檔案。請將 index.html 修改為：
    ```
-   \---  
+   ---  
    layout: default  
-   \---  
-   \<h1\>測試主題成功！\</h1\>  
-   \<p\>現在你應該能看到深綠色的漸層橫幅了。\</p\>
+   ---  
+   <h1>測試主題成功！</h1>  
+   <p>現在你應該能看到深綠色的漸層橫幅了。</p>
    ```
  **原理：** layout: default 會呼叫主題的外殼，你不需要寫 \<html\> 或 \<body\> 標籤，它們會被自動注入。
 
@@ -82,30 +82,23 @@
 1. **準備圖片：** 在 docs/ 下建立 images/ 資料夾，上傳一張大頭照並命名為 profile.png。  
 2. **進階排版實作：** 修改 docs/index.html，將內容替換為以下具備 Flexbox 佈局的結構：
    ```
-   \---  
+   --- 
    layout: default  
-   \---
+   ---
 
-   \<\!-- 個人簡介區塊 \--\>  
-   \<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px; background: \#f4f4f4; padding: 25px; border-radius: 15px; border-left: 5px solid \#157878;"\>
+   <!-- 個人簡介區塊 -->  
+   <div style="display: flex; align-items: center; gap: 20px; margin-bottom: 30px; background: \#f4f4f4; padding: 25px; border-radius: 15px; border-left: 5px solid #157878;">
 
-     \<\!-- 左側：圓形頭像 \--\>  
-     \<img src="images/profile.png" style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid \#157878; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"\>
+     <!-- 左側：圓形頭像 -->  
+     <img src="images/profile.png" style="width: 120px; height: 120px; border-radius: 50%; border: 3px solid \#157878; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
-     \<\!-- 右側：文字介紹 \--\>  
-     \<div\>  
-       \<h2 style="margin-top: 0; color: \#157878;"\>Anita 的 Git 教室\</h2\>  
-       \<p style="margin-bottom: 0; line-height: 1.6;"\>哈囉！我是 Anita。這是我專為 Git 初學者設計的實作空間。在這裡，我們不只學指令，更學會如何與程式碼的過去對話！\</p\>  
-     \</div\>
-
-   \</div\>
-
-   \<hr\>
-
-   \#\#\# 🚀 學習路徑  
-   \* \[x\] 成功啟用 GitHub Pages  
-   \* \[x\] 套用 Cayman 專業主題  
-   \* \[ \] 掌握分支管理與合併
+     <!-- 右側：文字介紹 -->  
+     <div>  
+       <h2 style="margin-top: 0; color: \#157878;"\>Anita 的 Git 教室</h2>  
+       <p style="margin-bottom: 0; line-height: 1.6;"\>哈囉！我是 Anita。這是我專為 Git 初學者設計的實作空間。在這裡，我們不只學指令，更學會如何與程式碼的過去對話！</p>  
+     </div>
+   </div>
+   <hr>
    ```
 
 ## **🧪 Lab 6：進階部署 \- GitHub Actions**
