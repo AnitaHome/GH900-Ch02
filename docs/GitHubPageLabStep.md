@@ -123,4 +123,8 @@
    * 檢查路徑是否正確（例如 images/profile.png 是否真的在 HTML 檔案的同層資料夾下）。  
    * 注意檔案大小寫（profile.png 在網路上是區分大小寫的）。
 
+<div style="margin-top: 50px; text-align: center;">
+<a href="index.html" class="btn" style="padding: 10px 25px; color: #157878; border: 1px solid #157878; text-decoration: none; border-radius: 5px;">⬅️ 回到課程首頁</a>
+</div>
+
 © 2026 GitHub Pages 實作教學 | 由 AnitaHome 製作
